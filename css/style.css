@@ -1,0 +1,123 @@
+body {
+  color: #333;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  height: 80px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 100%;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-list-item {
+  padding: 0 5px;
+}
+
+.mv {
+  height: 460px;
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.mv h2 {
+  color: #fff;
+  font-size: 41px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  line-height: 2;
+}
+
+.blog-inner {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 77px 20px 48px;
+}
+
+.blog-ttl {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 73px;
+  text-align: center;
+}
+
+.blog-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.blog-card {
+  width: 32%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-info {
+  padding: 12px;
+}
+
+.card-info h3 {
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  width: 257px;
+  padding: 15px 0;
+  color: #fff;
+  background-color: #BA0202;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+footer {
+  background-color: #333;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 35px 0;
+}

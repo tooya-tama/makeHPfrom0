@@ -1,0 +1,35 @@
+@media screen and (max-width:768px) {
+  h1 {
+    font-size: 14px;
+  }
+
+  .header-nav-list-item {
+    font-size: 12px;
+  }
+
+  .mv {
+    height: 300px;
+  }
+
+  .mv h2 {
+    font-size: 24px;
+  }
+
+  .blog-inner {
+    padding: 40px 20px 30px;
+  }
+
+  .blog-ttl {
+    font-size: 24px;
+  }
+
+  .blog-card-wrapper {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .blog-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
